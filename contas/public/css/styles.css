@@ -1,0 +1,148 @@
+/* styles.css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+div {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="number"],
+input[type="date"],
+select {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  padding: 10px 15px;
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button.save {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+button.delete {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+button.change-status {
+  background-color: #28a745;
+  color: #fff;
+}
+
+#billsTable {
+  margin-top: 10px;
+}
+
+#billsTable thead tr {
+  background-color: #007bff;
+  color: white;
+}
+
+#billsTable th,
+#billsTable td {
+  padding: 12px;
+  text-align: center;
+}
+
+#billsTable tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#searchBillContainer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
